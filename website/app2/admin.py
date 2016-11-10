@@ -1,5 +1,5 @@
 from django.contrib import admin
-from website.fund_tracker.models import Stock
+from website.app2.models import Stock
 
 class StockAdmin(admin.ModelAdmin):
 	readonly_fields = ['exchange', 'current_price', 'current_volume', 'current_PE', 'current_PB', 'current_ROA', \

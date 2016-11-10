@@ -6,7 +6,7 @@ from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.db.models import Avg
-from website.fund_tracker.models import Stock
+from website.app2.models import Stock
 
 from django.contrib import messages
 

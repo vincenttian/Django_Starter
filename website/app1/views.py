@@ -1,7 +1,7 @@
 from django.views.generic import ListView, TemplateView
-from website.application_portal.models import Applicant
+from website.appq.models import Applicant
 from django.shortcuts import redirect
-from website.application_portal.forms import ApplicationForm
+from website.app1.forms import ApplicationForm
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
